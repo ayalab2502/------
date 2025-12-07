@@ -1,0 +1,115 @@
+/* ייבוא גופן ממקור חיצוני */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+    /* כיוון האתר מימין לשמאל */
+    direction: rtl;
+    /* שינוי גופן לאתר */
+    font-family: "Secular One", sans-serif;
+    /* רקע */
+    background-color: #00c382;
+    padding-bottom: 200px;
+}
+
+h1 {
+    /* יישור טקסט */
+    text-align: center;
+    /* צבע הטקסט */
+    color: white;
+}
+
+.frame {
+    /* רוחב */
+    width: 80%;
+    /* מקסימום רוחב */
+    max-width: 900px;
+    /* מינימום גובה */
+    min-height: 300px;
+    /* רקע */
+    background-color: #ffffffc9;
+    /* ריווח חיצוני אוטומטי (גורם למרכוס האלמנט) */
+    margin: auto;
+    /* ריווח פנימי של האלמנט */
+    padding: 8px 16px;
+    /* עיגול קצוות */
+    border-radius: 6px;
+}
+
+.frame {
+    padding-bottom: 50px;
+}
+
+h2 {
+    padding: 8px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    color: #4d4d4d;
+    margin: 40px 0 8px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #c9f2e5;
+}
+
+.divFrame div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid #00c382;
+    background-color: white;
+}
+#examplediv1 {
+    background-color: #00c382;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+#examplediv2 {
+    background-color: #00c382;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    z-index: 2;
+}
+
+.bigDiv {
+    width: 600px;
+    height: 300px;
+    background-color: #c1c1c1;
+    margin: auto;
+    position: relative;
+}
+
+.bigDiv div {
+
+    height: 50px;
+    width: 100px;
+    border: 2px solid #00c382;
+    background-color: white;
+    position: Absolute;
+
+}
+
+.bigDiv :nth-child(1) {
+    left: 100px;
+    bottom: 40px;
+
+}
+
+.bigDiv :nth-child(2) {
+    bottom: 100px;
+    right: 40px;
+}
+
+#examplediv4 {
+    background-color: #00c382;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+#toplayer {
+    position: relative;
+    z-index: 1;
+
+}
