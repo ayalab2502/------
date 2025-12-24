@@ -2,95 +2,108 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>פיצה</title>
+        <title>טופס להזמנת פיצה</title>
         <link rel="stylesheet" href="forms.css">
     </head>
     <body>
-        <h1>טופס הזמנת פיצה</h1>
+        <h1>טופס להזמנת פיצה</h1>
 
         <div class="frame">
-            <form>
-                <h2>פרטים אישיים</h2>
-                <div class="field">
-                    <label>שם מלא:</label>
-                    <input type="text">
-                </div>
-
-                <div class="field">
-                    <label>טלפון:</label>
-                    <input type="tel">
-                </div>
-
-                <div class="field">
-                    <label>אימייל:</label>
-                    <input type="email">
-                </div>
-
-                <div class="field">
-                    <label>עיר:</label>
-                    <select>
-                        <option>ירושלים </option>
-                        <option>בית שמש </option>
-                        <option>צור הדסה </option>
-                        <option>נחם </option>
-                        <option>תעוז </option>
-                        <option>ישעי </option>
-                        <option>מודיעין </option>
-                        <option>רחובות </option>
-                    </select>
-                </div>
-
-                <div class="field">
-                    <label>רחוב:</label>
-                    <input type="text">
-                </div>
-
-                <h2>פרטי ההזמנה</h2>
-                
             <div class="field">
-                <label>גודל המגש:</label>
+                <label>שם הלקוח:</label>
+                <input type="text">
+            </div>
+
+            <div class="field">
+                <label>טלפון:</label>
+                <input type="tel">
+            </div>
+
+            <div class="field">
+                <label>אימייל:</label>
+                <input type="email">
+            </div>
+
+            <div class="field">
+                <label>עיר:</label>
                 <select>
-                        <option>S </option>
-                        <option>M </option>
-                        <option>L </option>
+                    <option></option>
+                    <option>צור יצחק</option>
+                    <option>ירושלים</option>
+                    <option>רמת גן</option>
+                    <option>נתניה</option>
+                    <option>מודיעין</option>
+                    <option>תל אביב</option>
+                    <option>רחובות</option>
+                    <option>חולון</option>
+                    <option>בת ים</option>
+                    <option>כפר סבא</option>
+                    <option>בקוע</option>
                 </select>
             </div>
 
-
             <div class="field">
+                <label>רחוב:</label>
+                <input type="text">
+            </div>
+
+            <h2>פרטי ההזמנה</h2>
+
+            <h3>גודל המגש:</h3>
+            <label>
+                <input type="radio" name="size"> אישי
+            </label>
+            <label>
+                <input type="radio" name="size"> משפחתי
+            </label>
+            <label>
+                <input type="radio" name="size"> ענק
+            </label>
+
+            <h3>סוג בצק:</h3>
+            <label>
+                <input type="radio" name="type"> רגיל
+            </label>
+            <label>
+                <input type="radio" name="type"> דק
+            </label>
+            <label>
+                <input type="radio" name="type"> ללא גלוטן
+            </label>
+            <label>
+                <input type="radio" name="type"> קמח מלא
+            </label>
+
             <h3>תוספות:</h3>
+            <label>
+                <input type="checkbox"> זיתים
+            </label>
+            <label>
+                <input type="checkbox"> עגבניות
+            </label>
+            <label>
+                <input type="checkbox"> פטריות
+            </label>
+            <label>
+                <input type="checkbox"> בצל
+            </label>
+            <label>
+                <input type="checkbox"> בולגרית
+            </label>
+            <label>
+                <input type="checkbox"> אננס
+            </label>
+            <label>
+                <input type="checkbox"> תירס
+            </label>
+            <label>
+                <input type="checkbox"> טונה
+            </label>
 
-             <label>
-                <input type="checkbox">זיתים
-            </label>
-            <label>
-                <input type="checkbox">פטריות
-            </label>
-            <label>
-                <input type="checkbox">אננס
-            </label>
-            <label>
-                <input type="checkbox">אנשובי
-            </label>
-            <label>
-                <input type="checkbox">טונה
-            </label>
-            <label>
-                <input type="checkbox">בולגרית
-            </label>
-            <label>
-                <input type="checkbox">פטה
-            </label>
-            </div>
-          
-            <h3>הערות לשליח:</h3>
-                <textarea></textarea>
+            <h3>הערה:</h3>
+            <textarea></textarea>
 
-            </div>
-
-
-
-            </form>
+            <button>שליחה</button>
         </div>
     </body>
 </html>

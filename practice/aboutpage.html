@@ -7,53 +7,131 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
     <header>
-        <h1>אתר הפורטפוליו של איילה בנסיאנו</h1>
-        <div class="logo">
-            <img src="./media/2.png" alt="לוגו">
-        </div>
-    </header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
 
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="http://127.0.0.1:5500/practice/index.html">בית</a></li>
-                <li><a href="http://127.0.0.1:5500/practice/aboutpage.html" style="color: white;" >אודות</a></li>
+                <li><a href="http://127.0.0.1:5500/practice/aboutpage.html" class="Current-page">אודות</a></li>
                 <li><a href="http://127.0.0.1:5500/practice/projectspage.html">פרויקטים</a></li>
                 <li><a href="http://127.0.0.1:5500/practice/contactpage.html">צור קשר</a></li>
             </ul>
         </nav>
-    
+        <div class="logo">
+            <img src="./media/logo.png" alt="לוגו">
+        </div>
+    </header>
+
 
     <main>
+    <h2>קצת עליי</h2>
+    <section  class="about-section aboutpage section">
 
-        <div class="about-section aboutpage">
+        <div>
             <p>
-            היי ♥
-            <br> <br>
-            שמי איילה בנסיאנו, בת 23 מהצפון. דרכי התחילה בעולם ההוראה, שם למדתי הוראת מתמטיקה — תחום שתמיד משך אותי בזכות הדיוק, הסדר והחשיבה האנליטית שהוא דורש. במהלך הלימודים גיליתי שאני נהנית במיוחד מהתהליך של פתרון בעיות ומהיכולת לפרק משימות מורכבות לשלבים ברורים, תכונות שליוו אותי גם מחוץ למסגרת הלימודית.
-            <br> <br>
-
-            עם הזמן התחדדה בי ההבנה שהעולם הטכנולוגי הוא המקום שבו אוכל לקחת את היכולות האלה ולהרחיב אותן לכיוונים חדשים. הרצון ליצור, להבין איך דברים עובדים "מאחורי הקלעים", ולראות רעיון הופך למשהו מוחשי — כל אלה הובילו אותי לבחור במסלול של פיתוח פולסטאק.
-            <br> <br>
-            כיום אני משקיעה את זמני בלמידה ובבניית פרויקטים אישיים, מתוך רצון להתקדם ולהעמיק כמה שיותר. אני מתמקדת בפיתוח אתרים שמרגישים נקיים, ברורים ונעימים לשימוש, תוך שימת דגש על חשיבה לוגית מצד אחד ועל חוויית משתמש מצד שני. כל פרויקט עבורי הוא הזדמנות ללמוד טכנולוגיה חדשה, לשפר קוד קיים, ולפתח מיומנויות נוספות בדרך.
-            <br> <br>
-            אני אוהבת את השילוב שבין יצירתיות לבין סדר והיגיון — זה בדיוק מה שאני מוצאת בעולם הפיתוח. המטרה שלי היא להמשיך לגדול בתחום, לבנות עוד ועוד פרויקטים, ולהפוך את הידע שצברתי לכלים מעשיים שישרתו אותי לאורך הדרך.
-            <br> <br>
-            לאורך הדרך אני שואפת להמשיך להתרחב מקצועית ולהעמיק בטכנולוגיות נוספות, במיוחד כאלה שמאפשרות ליצור חוויות אינטראקטיביות ומערכות חכמות. אחת המטרות שלי היא להגיע לרמה שבה אוכל להשתלב בצוות פיתוח אמיתי, לקחת חלק בבניית מוצרים אמיתיים ולתרום מנקודת המבט המדויקת והלוגית שמלווה אותי. במקביל, חשוב לי להמשיך ולפתח לעצמי סגנון אישי בעבודה — כזה שמשלב יצירתיות, בהירות, ואחריות מקצועית.
-            <br> <br>
-            אני רואה בדרך הזו מסע מתמשך של למידה והתפתחות, ומאמינה שכל צעד קטן, כל פרויקט וכל שורה של קוד, מקרבים אותי לעבר היעדים שאני מציבה לעצמי.
+                היי, שמי איילה בנסיאנו, בת 23, מפתחת פולסטאק בתחילת הדרך.
+                <br><br>
+                הרקע שלי הוא בלימודי הוראת מתמטיקה, תחום שפיתח אצלי חשיבה אנליטית, סדר ויכולת פירוק בעיות מורכבות לשלבים ברורים. במהלך הדרך הבנתי שהעולמות הטכנולוגיים מאפשרים לי לממש את היכולות האלה בצורה מעשית ויצירתית יותר, והחלטתי להתמקד בפיתוח תוכנה.
+                <br><br>
+                כיום אני לומדת פיתוח פולסטאק ובונה פרויקטים אישיים, עם דגש על פיתוח אתרים נקיים, ברורים ורספונסיביים, המשלבים לוגיקה, מבנה נכון וחוויית משתמש איכותית. אני מקפידה על כתיבת קוד מסודר, הבנה של תהליכים מקצה לקצה, ולמידה מתמדת של טכנולוגיות וכלים חדשים.
+                <br><br>
+                המטרה שלי היא להמשיך להתפתח מקצועית, להשתלב בצוות פיתוח, לקחת חלק בבניית מוצרים אמיתיים ולתרום מתוך חשיבה מדויקת, אחריות מקצועית ויכולת למידה גבוהה.
             </p>
         </div>
+    </section>
+
+    <h2>כלים וטכנולוגיות</h2>
+    <section class="skills-section section">
+
+            <div class="skill-card">
+                <h3>Frontend Development</h3>
+                <p>
+                    פיתוח ממשקי משתמש מודרניים ורספונסיביים עם דגש על חוויית משתמש,
+                    מבנה נכון והתנהגות דינמית.
+                </p>
+                <ul>
+                    <li>HTML5, CSS3 (Responsive)</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React + TypeScript</li>
+                    <li>Hooks, Context, Redux Toolkit</li>
+                    <li>DOM & Async Programming</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>
+                    פיתוח מערכות צד שרת, בניית APIs תקניים,
+                    עבודה עם מסדי נתונים ואבטחה.
+                </p>
+                <ul>
+                    <li>Node.js & Express</li>
+                    <li>REST APIs</li>
+                    <li>JWT Authentication</li>
+                    <li>MongoDB & PostgreSQL</li>
+                    <li>Middlewares & File Uploads</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>AI & Python</h3>
+                <p>
+                    שילוב בינה מלאכותית במערכות Full Stack
+                    ופיתוח שירותים חכמים.
+                </p>
+                <ul>
+                    <li>Python</li>
+                    <li>FastAPI</li>
+                    <li>APIs & LLMs</li>
+                    <li>Vector DBs & RAG</li>
+                    <li>AI Microservices</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>DevOps & Deployment</h3>
+                <p>
+                    עבודה עם תהליכי פיתוח מודרניים,
+                    העלאה ל־Production וניהול גרסאות.
+                </p>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>Docker & CI/CD</li>
+                    <li>Vercel, Render, Railway</li>
+                    <li>AWS Basics</li>
+                    <li>Testing עם GPT + Playwright</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>WordPress & Automation</h3>
+                <p>
+                    הקמת אתרים מקצועיים ושילוב פתרונות
+                    No-Code ו־Low-Code.
+                </p>
+                <ul>
+                    <li>WordPress & Elementor</li>
+                    <li>SEO, Forms, WooCommerce</li>
+                    <li>n8n & 44Base</li>
+                    <li>Automation Workflows</li>
+                    <li>AI Agents</li>
+                </ul>
+            </div>
+
+    </section>
+
     
     </main>
   
 
-<FOOter>
-    <div class="footer">
+<footer>
         <p>♥ כל הזכויות שמורות לאיילה בנסיאנו ♥</p>
-    </div>
-</FOOter>
+</footer>
+
+<a href="#top" class="back-to-top">⬆</a>
 
 </body>
 </html>
